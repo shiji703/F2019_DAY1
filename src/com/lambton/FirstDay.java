@@ -10,7 +10,6 @@ public class FirstDay
         //value assignment
         a=10;
         b=20;
-        //perform add
         c = a + b;
         //display
         System.out.println("sum : " + c);
