@@ -19,5 +19,17 @@ public class FirstDay
         System.out.println("Y : " + y);
         System.out.println("Min : " + Integer.MIN_VALUE);
 
+        student s1 = new student();
+        s1.setValues();
+        s1.display();
+
+        student s2 = new student();
+        s2.setValues();
+        s2.display();
+
+        student s3 = new student();
+        s3.setValues();
+        s3.display();
+
     }
 }
