@@ -13,5 +13,15 @@ public class FirstDay
         c = a + b;
         //display
         System.out.println("sum : " + c);
+        Integer x = Integer.MAX_VALUE;
+        System.out.println("x : " + x);
+        int y = x + 1;
+        System.out.println("Y : " + y);
+        System.out.println("Min : " + Integer.MIN_VALUE);
+
+        Student s1 = new Student();
+        s1.setValues();
+        s1.display();
+
     }
 }
