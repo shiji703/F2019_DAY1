@@ -6,7 +6,7 @@ public class FirstDay
     {
         System.out.println ("shiji");
         //variable declaration
-        int a, b, c;
+        int a, b, c, i;
         //value assignment
         a=10;
         b=20;
@@ -30,6 +30,11 @@ public class FirstDay
         student s3 = new student();
         s3.setValues();
         s3.display();
+
+        student s4 = new student();
+        s4.studentID = 4;
+        s4.studentName = "shiji";
+        s4.display();
 
     }
 }
